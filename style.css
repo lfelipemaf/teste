@@ -1,0 +1,54 @@
+h1{
+  color: #426dff;
+  font-family: verdana;
+  text-align: center;
+  font-size: 50px;
+}
+h2{
+	font-size: 40px;
+}
+body{
+  color: #223323;
+  font-family: verdana;
+  }
+p{ 
+	font-family: verdana;
+	text-align: center;
+	font-size: 20px;
+}
+p.actions{
+	font-weight: thin;
+	font-size: 15px;
+	text-align: left;
+}
+a{
+  color: #223323;
+  font-family: verdana;
+}
+
+html{
+  background-color: #f0f1e8;
+  background-image: url("picpay.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 350px;
+
+}
+
+p.sidebar{
+	text-align: left;
+}
+
+table{
+	margin: 25px;
+}
+th,tr,td{
+	border: 1px solid;
+
+}
+
+th{
+	background-color: #223323;
+	color: #f0f1e8;
+	font-weight: bold;
+}

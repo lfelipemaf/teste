@@ -1,0 +1,21 @@
+db.car.insert({
+	name: 'honda',
+	make: 'accord',
+	year: '2010'	
+});
+
+db.car.update({
+	name: 'ford'
+	},
+	{$set:{
+	transmission:'automatic'
+	}
+	},{$upsert:true})
+
+	db.car.update({
+	name: 'honda'
+	},
+	{$set:{
+	make:'ford'
+	}
+	})

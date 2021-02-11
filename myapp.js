@@ -1,0 +1,1 @@
+document.getElementById('objetivo').innerText = "new";
